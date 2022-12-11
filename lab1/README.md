@@ -10,6 +10,12 @@
 
 
 
+## STP (blocked path)
+
+<img src="img/stp.png">
+
+
+
 ## Schema
 
 ![«screenshot» 2022-12-10 at 06.28.08](img/schema.png)
