@@ -17,7 +17,7 @@
 
 ​	Тем не менее, все кроме NAT сделать успел и даже сохранил конфиги, они соответственно лежат в configs.  Для настройки NAT не хватило:
 
-_Ближайший маршрутизатор:_ 
+_The closest router:_ 
 
 ```
 int et0/0.10
@@ -36,7 +36,7 @@ ip nat pool VLAN20_NAT_POOL 11.22.33.11 11.22.33.20 netmask 255.255.255.0
 ip nat inside source list 20 pool VLAN20_NAT_POOL
 ```
 
-_Внешний маршрутизатор:_
+_External router:_
 
 ```
 int et0/1
